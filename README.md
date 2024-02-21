@@ -1,6 +1,10 @@
 # Water Outage Warning System
 
-This Node.js application functions as a Water Outage Warning System, diligently scraping the official public data from Samsun Water and Sewerage Administration (SASKI) website for outage alerts in chosen neighborhoods. When new warnings emerge, the system promptly sends SMS notifications via Twilio. Deployed on Heroku, it operates continuously to provide uninterrupted service.
+This Node.js application functions as a Water Outage Warning System, diligently scraping the official public data from Samsun Water and Sewerage Administration (SASKI) website for outage alerts in chosen neighborhoods. When new warnings emerge, the system promptly sends SMS notifications via Twilio. Deployed on Heroku Cloud, it operates continuously to provide uninterrupted service.
+
+## Example Output(SMS)
+
+<img width="335" alt="image" src="https://github.com/kutaysahindev/saski-scraper/assets/79334889/ec5e01f2-4a23-43f9-8d3b-9c3819eb6d5e">
 
 ## How to use
 
@@ -28,3 +32,4 @@ This application has been deployed on Heroku, ensuring it runs 24/7. The deploym
 - Axios
 - Cheerio
 - Twilio
+- Heroku
